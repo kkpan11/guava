@@ -28,36 +28,38 @@
       "dependencies": [
         {
           "group": "com.google.guava",
-          "module": "guava-parent",
+          "module": "failureaccess",
           "version": {
-            "requires": "${pom.version}"
-          },
-          "attributes": {
-            "org.gradle.category": "platform"
+            "requires": "1.0.2"
           }
         },
         {
           "group": "com.google.guava",
-          "module": "failureaccess",
+          "module": "listenablefuture",
           "version": {
-            "requires": "1.0.1"
+            "requires": "9999.0-empty-to-avoid-conflict-with-guava"
           }
         },
         {
-          "group": "com.google.code.findbugs",
-          "module": "jsr305"
-        },
-        {
-          "group": "org.checkerframework",
-          "module": "checker-qual"
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "${jspecify.version}"
+          }
         },
         {
           "group": "com.google.errorprone",
-          "module": "error_prone_annotations"
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "${errorprone.version}"
+          }
         },
         {
           "group": "com.google.j2objc",
-          "module": "j2objc-annotations"
+          "module": "j2objc-annotations",
+          "version": {
+            "requires": "${j2objc.version}"
+          }
         }
       ],
       "files": [
@@ -76,11 +78,6 @@
           "group": "com.google.collections",
           "name": "google-collections",
           "version": "${pom.version}"
-        },
-        {
-          "group": "com.google.guava",
-          "name": "listenablefuture",
-          "version": "1.0"
         }
       ]
     },
@@ -97,32 +94,38 @@
       "dependencies": [
         {
           "group": "com.google.guava",
-          "module": "guava-parent",
+          "module": "failureaccess",
           "version": {
-            "requires": "${pom.version}"
-          },
-          "attributes": {
-            "org.gradle.category": "platform"
+            "requires": "1.0.2"
           }
         },
         {
           "group": "com.google.guava",
-          "module": "failureaccess",
+          "module": "listenablefuture",
           "version": {
-            "requires": "1.0.1"
+            "requires": "9999.0-empty-to-avoid-conflict-with-guava"
           }
         },
         {
-          "group": "com.google.code.findbugs",
-          "module": "jsr305"
-        },
-        {
-          "group": "org.checkerframework",
-          "module": "checker-qual"
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "${jspecify.version}"
+          }
         },
         {
           "group": "com.google.errorprone",
-          "module": "error_prone_annotations"
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "${errorprone.version}"
+          }
+        },
+        {
+          "group": "com.google.j2objc",
+          "module": "j2objc-annotations",
+          "version": {
+            "requires": "${j2objc.version}"
+          }
         }
       ],
       "files": [
@@ -141,11 +144,6 @@
           "group": "com.google.collections",
           "name": "google-collections",
           "version": "${pom.version}"
-        },
-        {
-          "group": "com.google.guava",
-          "name": "listenablefuture",
-          "version": "1.0"
         }
       ]
     },
@@ -162,36 +160,38 @@
       "dependencies": [
         {
           "group": "com.google.guava",
-          "module": "guava-parent",
+          "module": "failureaccess",
           "version": {
-            "requires": "${otherVariant.version}"
-          },
-          "attributes": {
-            "org.gradle.category": "platform"
+            "requires": "1.0.2"
           }
         },
         {
           "group": "com.google.guava",
-          "module": "failureaccess",
+          "module": "listenablefuture",
           "version": {
-            "requires": "1.0.1"
+            "requires": "9999.0-empty-to-avoid-conflict-with-guava"
           }
         },
         {
-          "group": "com.google.code.findbugs",
-          "module": "jsr305"
-        },
-        {
-          "group": "org.checkerframework",
-          "module": "checker-qual"
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "${jspecify.version}"
+          }
         },
         {
           "group": "com.google.errorprone",
-          "module": "error_prone_annotations"
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "${errorprone.version}"
+          }
         },
         {
           "group": "com.google.j2objc",
-          "module": "j2objc-annotations"
+          "module": "j2objc-annotations",
+          "version": {
+            "requires": "${j2objc.version}"
+          }
         }
       ],
       "files": [
@@ -210,11 +210,6 @@
           "group": "com.google.collections",
           "name": "google-collections",
           "version": "${pom.version}"
-        },
-        {
-          "group": "com.google.guava",
-          "name": "listenablefuture",
-          "version": "1.0"
         }
       ]
     },
@@ -231,32 +226,38 @@
       "dependencies": [
         {
           "group": "com.google.guava",
-          "module": "guava-parent",
+          "module": "failureaccess",
           "version": {
-            "requires": "${otherVariant.version}"
-          },
-          "attributes": {
-            "org.gradle.category": "platform"
+            "requires": "1.0.2"
           }
         },
         {
           "group": "com.google.guava",
-          "module": "failureaccess",
+          "module": "listenablefuture",
           "version": {
-            "requires": "1.0.1"
+            "requires": "9999.0-empty-to-avoid-conflict-with-guava"
           }
         },
         {
-          "group": "com.google.code.findbugs",
-          "module": "jsr305"
-        },
-        {
-          "group": "org.checkerframework",
-          "module": "checker-qual"
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "${jspecify.version}"
+          }
         },
         {
           "group": "com.google.errorprone",
-          "module": "error_prone_annotations"
+          "module": "error_prone_annotations",
+          "version": {
+            "requires": "${errorprone.version}"
+          }
+        },
+        {
+          "group": "com.google.j2objc",
+          "module": "j2objc-annotations",
+          "version": {
+            "requires": "${j2objc.version}"
+          }
         }
       ],
       "files": [
@@ -275,11 +276,6 @@
           "group": "com.google.collections",
           "name": "google-collections",
           "version": "${pom.version}"
-        },
-        {
-          "group": "com.google.guava",
-          "name": "listenablefuture",
-          "version": "1.0"
         }
       ]
     }
